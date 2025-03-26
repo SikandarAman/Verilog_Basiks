@@ -1,0 +1,54 @@
+$date
+	Sat Mar 15 15:27:04 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module add_tester $end
+$var reg 8 ! a [7:0] $end
+$upscope $end
+$scope module add_tester $end
+$var reg 8 " b [7:0] $end
+$upscope $end
+$scope module add_tester $end
+$var wire 1 # cout $end
+$upscope $end
+$scope module add_tester $end
+$var wire 8 $ sum [7:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx $
+x#
+bx "
+bx !
+$end
+#10
+b1010010 $
+0#
+b1010010 "
+b0 !
+#20
+b11010010 $
+b1000 "
+b11001010 !
+#30
+b1110110 $
+b1101010 "
+b1100 !
+#40
+b100010 $
+1#
+b1110001 "
+b10110001 !
+#50
+b10 $
+b11011111 "
+b100011 !
